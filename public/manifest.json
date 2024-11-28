@@ -1,20 +1,27 @@
 {
-	"name": "TEST PWA",
-	"short_name": "NextPWA",
+	"theme_color": "#8fff70",
+	"background_color": "#191a1a",
 	"icons": [
 		{
-			"src": "/icons/icon512_rounded.png",
-			"sizes": "192x192",
+			"purpose": "maskable",
+			"sizes": "512x512",
+			"src": "icon512_maskable.png",
 			"type": "image/png"
 		},
 		{
-			"src": "/icons/icon-512x512.png",
+			"purpose": "any",
 			"sizes": "512x512",
+			"src": "icon512_rounded.png",
 			"type": "image/png"
 		}
 	],
-	"start_url": "/",
+	"orientation": "any",
 	"display": "standalone",
-	"background_color": "#ffffff",
-	"theme_color": "#000000"
+	"dir": "auto",
+	"lang": "en-US",
+	"name": "daily-quest",
+	"short_name": "habit quest",
+	"description": "quest to improve habits",
+	"start_url": "/",
+	"scope": "/"
 }
