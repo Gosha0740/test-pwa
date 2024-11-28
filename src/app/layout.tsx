@@ -32,11 +32,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>
-        <link rel="manifest" href="/manifest.json" />
-        <link rel="icon" href="/icons/icon512_rounded.png" />
-        <meta name="theme-color" content="#000000" />
-      </head>
       <body
         className={`antialiased`}
       >
